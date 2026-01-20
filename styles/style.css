@@ -95,9 +95,53 @@ body{
     border-radius: 20px;
     padding: 8px 16px;
     font-size: 14px;
-
 }
-
+#podcast{
+    max-width:1600px;
+    /* border: 1px solid red; */
+    padding-top: 30px;
+}
+.podcast-container{
+    
+    /* background-color:#412667 ; */
+}
+.podcast-top h1{
+    color:#FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.podcast-top p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.para{
+    text-align: center;
+}
+.podcast-bottom{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    /* border:1px solid red; */
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+    color: #00FF88;
+    font-weight: bold;
+}
+.card p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
 
 @media screen and  (max-width: 576px) {
    .menu-links{
